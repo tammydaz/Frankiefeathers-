@@ -37,18 +37,18 @@ dotenv.config({ path: path.join(ROOT, '.env') });
 const VOICES = {
   frankie: {
     name: 'Dylan',
-    voiceId: 'TXkFbddxZzhc2Fn5d0Xz',
-    voice_settings: { stability: 0.35, similarity_boost: 0.75 },
+    voiceId: 'kWjdIkuzqBCnHbyAOYlF',
+    voice_settings: { stability: 0.32, similarity_boost: 0.75 },
   },
   gina: {
-    name: 'Hope',
-    voiceId: 'jBpfuIE2acCO8z3wKNLl',
-    voice_settings: { stability: 0.35, similarity_boost: 0.75 },
+    name: 'Gina (custom)',
+    voiceId: 'GVF6c2ERWN64CxwxjaUt',
+    voice_settings: { stability: 0.4, similarity_boost: 0.75 },
   },
   sal: {
     name: 'Adam',
     voiceId: 'pNInz6obpgDQGcFmaJgB',
-    voice_settings: { stability: 0.55, similarity_boost: 0.75 },
+    voice_settings: { stability: 0.52, similarity_boost: 0.75 },
   },
 };
 
@@ -65,7 +65,7 @@ const WIDTH = 1080;
 const HEIGHT = 1920;
 const FPS = 30;
 const PAUSE_BETWEEN_LINES = 0.2;
-const WIDE_SHOT_SECONDS = 2.5;
+const WIDE_SHOT_SECONDS = 4;
 
 // 1.35x punch-in crops, synced to each speaker (1080x1920 source).
 const CROPS = {
@@ -81,7 +81,7 @@ const LINES = [
     voice: VOICES.frankie,
     crop: CROPS.frankie,
     audioPath: path.join(ROOT, 'line_0_frankie.mp3'),
-    text: "Yo, put dat down! Whaddya mean eatin' bread off Two Street?! Youze guys are drivin' me nuts.",
+    text: "Yo, look at this payload! Confetti, sequin glitter, and an entire Italian hoagie sitting on a folding chair! Gina, don't flap a single feather toward that hoagie—that's Ninth Street salvage!",
   },
   {
     index: 1,
@@ -89,7 +89,7 @@ const LINES = [
     voice: VOICES.gina,
     crop: CROPS.gina,
     audioPath: path.join(ROOT, 'line_1_gina.mp3'),
-    text: "It’s a hoagie roll, Frankie! Ma family ate off Two Street stoops for five generations, down across Broad!",
+    text: "Ninth Street salvage?! Frankie, your eyes are full of dust! You are sitting on Two Street on January First! My family has had staging rights to this stoop since the Fancy Brigades wore cardboard wings! You step on dat bun and I'll knock you all the way back across Broad!",
   },
   {
     index: 2,
