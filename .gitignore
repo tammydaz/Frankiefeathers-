@@ -1,0 +1,27 @@
+*.iml
+.gradle
+/local.properties
+/.idea
+.DS_Store
+/build
+/captures
+.externalNativeBuild
+.cxx
+*.apk
+*.ap_
+*.aab
+app/build/
+app/release/
+/keystore.properties
+*.jks
+*.keystore
+.kotlin
+
+# Episode renderer (Node.js)
+.env
+*.mp3
+node_modules/
+episode_1_final.mp4
+captions.srt
+captions.ass
+
