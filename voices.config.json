@@ -1,0 +1,34 @@
+{
+  "workflow": "speech-to-speech",
+  "model_tts": "eleven_multilingual_v2",
+  "model_sts": "eleven_english_sts_v2",
+  "characters": {
+    "frankie": {
+      "label": "Frankie (guy)",
+      "gender": "male",
+      "voiceId": "REPLACE_MALE_VOICE_ID",
+      "stability": 0.32,
+      "similarity_boost": 0.75,
+      "scratchFile": "scratch/01_frankie_scratch.mp3",
+      "outputFile": "line_0_frankie.mp3"
+    },
+    "gina": {
+      "label": "Gina (girl)",
+      "gender": "female",
+      "voiceId": "GVF6c2ERWN64CxwxjaUt",
+      "stability": 0.4,
+      "similarity_boost": 0.75,
+      "scratchFile": "scratch/02_gina_scratch.mp3",
+      "outputFile": "line_1_gina.mp3"
+    },
+    "sal": {
+      "label": "Sal (guy)",
+      "gender": "male",
+      "voiceId": "REPLACE_SECOND_MALE_VOICE_ID",
+      "stability": 0.52,
+      "similarity_boost": 0.75,
+      "scratchFile": "scratch/03_sal_scratch.mp3",
+      "outputFile": "line_2_sal.mp3"
+    }
+  }
+}
