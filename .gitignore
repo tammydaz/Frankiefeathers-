@@ -20,6 +20,7 @@ app/release/
 # Episode renderer (Node.js)
 .env
 *.mp3
+scratch/*_scratch.mp3
 node_modules/
 episode_1_final.mp4
 captions.srt
